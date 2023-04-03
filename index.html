@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-bs-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,6 +7,8 @@
     <meta name="description" content="Conceptos DOM">
     <meta name="keywords" content="DOM">
     <meta name="author" content="Julian Montenegro">
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/css/style.css">
     <title>DOM</title>
 </head>
 <body>
@@ -48,7 +50,27 @@
             </div>
           </nav>
     </header>
-    <main></main>
-    <footer></footer>
+    <main>
+        <section class="bg-dark text-light">
+            <div class="container py-5">
+            <h1>Practica DOM</h1>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae nihil, vel dignissimos corrupti sint alias est, obcaecati, repellendus odio voluptates qui reiciendis libero veritatis corporis amet quae! Consequatur, corporis minus.</p>
+            <button class="btn btn-primary" onclick="cambiarTitulo ()">Cambiar Titulo</button>
+        </div>
+        </section>
+        <section class="container-fluid my-4">
+            <h2>Crear un elemento HTML desde JS</h2>
+            <hr>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit, fugit vel magni sed voluptate soluta ea fuga blanditiis aliquam! Vero commodi iste itaque beatae odit minima consectetur similique quo maiores!</p>
+            <button class="btn btn-outline-primary">Ver mas</button>
+        </section>
+    </main>
+    <footer class="container-fluid bg-dark py-3 mt-2">
+        <section class="d-flex justify-content-center text-white align-items-center py-3">
+        <p>&copy;; Todos los derechos reservados</p>
+      </section>
+    </footer>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/app.js"></script>
 </body>
 </html>
